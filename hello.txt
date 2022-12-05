@@ -1,0 +1,15 @@
+hello git!
+hello world
+vim hello.txt 通过vim创建一个hello.txt的文件，并用vim打开
+使用i 进入到输入模式，可以编辑文件
+使用esc 退出输入模式，切换到一般模式，在一般模式按两下yy是复制，按p是粘贴
+
+
+:wq  是保存退出
+
+:q 是直接退出
+
+
+cat 文件名    是直接查看文件类容
+
+tail -n 1 文件名     查看文件最后一行是啥
