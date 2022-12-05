@@ -4,12 +4,20 @@ vim hello.txt 通过vim创建一个hello.txt的文件，并用vim打开
 使用i 进入到输入模式，可以编辑文件
 使用esc 退出输入模式，切换到一般模式，在一般模式按两下yy是复制，按p是粘贴
 
-
 :wq  是保存退出
 
 :q 是直接退出
 
-
 cat 文件名    是直接查看文件类容
 
 tail -n 1 文件名     查看文件最后一行是啥
+
+git init 初始化本地库
+git status  查看状态
+git add  添加到暂存区
+git commit 提交到本地库(这样还是需要写版本信息)
+git commit -m "写需要提交的备注信息" 提交文件名
+git rm --cached 文件名    可以删除暂存区里面的文件
+git reflog   查看历史记录
+git log 	查看详细日志，里面信息包含签名，日期以及commit提交的注释
+git reset --hard
