@@ -21,3 +21,10 @@ git rm --cached 文件名    可以删除暂存区里面的文件
 git reflog   查看历史记录
 git log 	查看详细日志，里面信息包含签名，日期以及commit提交的注释
 git reset --hard
+
+如果修改了本地库的文件，使用git status 查看信息
+然后再次git add ->  git commit -m     就行了
+
+
+
+
