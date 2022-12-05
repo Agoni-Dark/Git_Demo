@@ -108,6 +108,8 @@ git push 别名 分支		推送本地分支上的内容到远程仓库
 		---git push Git-Demo(直接放连接也行) master
 git clone 远程地址		将远程仓库内容克隆到本地
 git pull 远程仓库地址别名 远程分支名			将远程仓库对于分支最新内容拉下来后与当前本地分支直接合并
+		---直接在线修改内容，然后下面写上注释。然后在本地git bash here
+		---git pull Git-Demo master	pull拉取和push推送的命令都是一样的，都要写上远程厂库名 和分支名
 ```
 
 
