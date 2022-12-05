@@ -29,6 +29,7 @@ git branch 分支名    新建分支名
 git branch -v   查看分支
 git checkout 分支名    切换到分支上去
 git merge 分支名        把指定分支合并到当前分支上去
+测试一行	hot-fix test
 
 
 
